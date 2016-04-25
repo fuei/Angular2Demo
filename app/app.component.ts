@@ -8,7 +8,7 @@ export class Hero {
 @Component({
     selector: 'my-app',
     template: `
-        <h1>{{title}}</h1>
+        <h1>{{title}}</h1><h1>{{title}}</h1>
         <div *ngIf="selectedHero">
             <h2>{{selectedHero.name}} details!</h2>
             <div><label>id: </label>{{selectedHero.id}}</div>
